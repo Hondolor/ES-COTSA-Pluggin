@@ -1,0 +1,21 @@
+government "Avendri"
+	swizzle 0
+	color .1 .2 .3 
+	"player reputation" 1
+	"bribe" .02
+	"fine" 0
+
+fleet "Avendri Merchants"
+	government "Avendri"
+	names ""
+	cargo 1
+	personality	
+		heroic disables frugal
+	variant 10
+		"Avendri Freighter" 
+	variant 20
+		"Avendri Shuttle"
+	variant 20
+		"Avendri Interceptor" 3
+	variant 10
+		"Avendri Large Transport" 2
