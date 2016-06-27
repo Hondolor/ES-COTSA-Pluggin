@@ -2540,6 +2540,7 @@ system Atria
 
 system Atrica
 	pos -754.687 688.776
+	government Avendri
 	habitable 912.6
 	link Azerbam
 	link Neblime
@@ -2551,6 +2552,7 @@ system Atrica
 	asteroids "large rock" 24 9.828
 	asteroids "medium metal" 1 6.72
 	asteroids "large metal" 1 10.332
+	fleet "Avendri Merchants" 300
 	object
 		sprite star/k0
 		distance 57.4054
@@ -2568,7 +2570,7 @@ system Atrica
 		sprite planet/cloud8
 		distance 521.195
 		period 157.55
-	object
+	object Ozary
 		sprite planet/cloud3
 		distance 771.155
 		period 283.551
@@ -2766,6 +2768,7 @@ system Azerbam
 	asteroids "small metal" 3 3.1236
 	asteroids "medium metal" 9 1.8468
 	asteroids "large metal" 1 3.306
+	fleet "Avendri Merchants" 100
 	object
 		sprite star/k5
 		distance 36.894
@@ -3868,7 +3871,7 @@ system Cornephla
 		period 222.959
 		offset 273.081
 		object "Matt Station"
-			sprite planet/MattStation
+			sprite planet/AvendriStation2
 			distance 118.926
 			period 45.206
 			offset 83.9191
@@ -5643,6 +5646,7 @@ system Ezerteri
 
 system Eznos
 	pos -752.251 754.011
+	government Avendri
 	habitable 625
 	link Atrica
 	link Kink
@@ -5652,6 +5656,7 @@ system Eznos
 	asteroids "small metal" 4 2.9145
 	asteroids "medium metal" 3 2.2185
 	asteroids "large metal" 1 3.828
+	fleet "Avendri Merchants" 500
 	object
 		sprite star/g5
 		period 10
@@ -5659,7 +5664,7 @@ system Eznos
 		sprite planet/gas8
 		distance 496.64
 		period 177.085
-		object
+		object Collolo
 			sprite planet/oberon
 			distance 217
 			period 17.0164
@@ -6051,6 +6056,7 @@ system Fingol
 
 system Flaf'nef
 	pos -1021.69 566.776
+	government Kuk
 	habitable 625
 	link Marbin
 	link Coozle
@@ -6064,7 +6070,7 @@ system Flaf'nef
 	object
 		sprite star/g5
 		period 10
-	object
+	object Kukul
 		sprite planet/gas17
 		distance 663.21
 		period 273.273
@@ -8302,12 +8308,14 @@ system "Kaus Borealis"
 
 system Kiak
 	pos -796.687 574.776
+	government Avendri
 	habitable 1948.28
 	link Nortear
 	asteroids "small rock" 2 2.346
 	asteroids "medium rock" 74 4.3401
 	asteroids "large rock" 22 2.346
 	asteroids "large metal" 1 3.9491
+	fleet "Avendri Merchants" 300
 	object
 		sprite star/f5
 		distance 14.0092
@@ -8329,14 +8337,16 @@ system Kiak
 		sprite planet/ice5
 		distance 897.851
 		period 243.804
-	object
+	object Farestla
 		sprite planet/cloud1
-		distance 1531.86
-		period 543.329
+		distance 1838.46
+		period 714.358
+		offset 193.87
 	object
 		sprite planet/oberon
-		distance 3238.67
-		period 1670.26
+		distance 3545.27
+		period 1912.97
+		offset 33.5677
 
 system Kilowana
 	pos -669.081 589.199
@@ -8382,6 +8392,7 @@ system Kilowana
 
 system Kink
 	pos -783.251 763.011
+	government Avendri
 	habitable 425.92
 	link Eznos
 	asteroids "small rock" 19 6.21
@@ -8390,6 +8401,7 @@ system Kink
 	asteroids "small metal" 20 5.98
 	asteroids "medium metal" 8 5.175
 	asteroids "large metal" 10 7.36
+	fleet "Avendri Merchants" 700
 	object
 		sprite star/k5
 		period 10
@@ -8397,22 +8409,25 @@ system Kink
 		sprite planet/mars
 		distance 153
 		period 36.6803
-	object
+	object Gilaana
 		sprite planet/fog0
-		distance 601.04
-		period 285.595
+		distance 541.187
+		period 244.015
+		offset 111.203
 	object
 		sprite planet/venus
-		distance 992.45
-		period 605.981
+		distance 932.597
+		period 551.998
+		offset 288.684
 		object
 			sprite planet/dust5
 			distance 137
 			period 18.2979
 	object
 		sprite planet/gas4
-		distance 2313.49
-		period 2156.74
+		distance 2253.64
+		period 2073.59
+		offset 351.783
 
 system Kiro'ku
 	pos -131.923 -884.46
@@ -9195,34 +9210,40 @@ system Lesath
 
 system Lizno's
 	pos -822.687 705.776
+	government Avendri
 	habitable 425.92
 	link Nortear
 	link Sought
 	link Atrica
 	asteroids "large metal" 1 1.8343
+	fleet "Avendri Merchants" 300
 	object
 		sprite star/k5
 		period 10
-	object
+	object Krizane
 		sprite planet/rock10
-		distance 289.25
-		period 95.3468
+		distance 338.242
+		period 120.569
+		offset 151.528
 		object
 			sprite planet/ice0
 			distance 178
 			period 19.9869
 	object
 		sprite planet/rock8
-		distance 665.49
-		period 332.743
+		distance 714.482
+		period 370.154
+		offset 121.029
 	object
 		sprite planet/gas8
-		distance 913.85
-		period 535.437
+		distance 962.842
+		period 579.066
+		offset 56.069
 	object
 		sprite planet/neptune
-		distance 1849.14
-		period 1541.17
+		distance 1898.13
+		period 1602.82
+		offset 9.94492
 		object
 			sprite planet/io
 			distance 201
@@ -9419,6 +9440,7 @@ system Lurata
 
 system Marbin
 	pos -939.687 586.776
+	government Avendri
 	habitable 425.92
 	link Noodeld
 	link Soakle'deen
@@ -9430,10 +9452,12 @@ system Marbin
 	asteroids "small metal" 3 2.5908
 	asteroids "medium metal" 95 1.734
 	asteroids "large metal" 10 2.1012
+	fleet "Avendri Merchants" 600
+	fleet "Kuk pilgrims" 300
 	object
 		sprite star/k5
 		period 10
-	object
+	object Sikdle
 		sprite planet/ice1
 		distance 384.64
 		period 146.21
@@ -10996,6 +11020,7 @@ system Neblime
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
+	fleet "Avendri Merchants" 600
 	object
 		sprite star/k5
 		period 10
@@ -11201,6 +11226,8 @@ system Noodeld
 	asteroids "small metal" 12 2.8288
 	asteroids "medium metal" 4 1.9344
 	asteroids "large metal" 10 2.8496
+	fleet "Avendri Merchants" 100
+	fleet "Kuk pilgrims" 300
 	object
 		sprite star/k0
 		distance 59
@@ -11330,6 +11357,7 @@ system Noresk'phi
 
 system Nortear
 	pos -807.687 632.776
+	government Avendri
 	habitable 625
 	link Atrica
 	link Kiak
@@ -11341,17 +11369,25 @@ system Nortear
 	asteroids "small metal" 7 4.06
 	asteroids "medium metal" 14 2.38
 	asteroids "large metal" 10 2.52
+	fleet "Avendri Merchants" 1000
+	fleet "Kuk pilgrims" 600
 	object
 		sprite star/g5
 		period 10
 	object
 		sprite planet/ice4
-		distance 222.25
-		period 53.013
+		distance 330.25
+		period 96.025
+		offset 133.764
+		object "Phink Station"
+			sprite planet/alienspacestation3
+			distance 148
+			period 22.6337
 	object
 		sprite planet/gas9
-		distance 1011.5
-		period 514.717
+		distance 1227.5
+		period 688.101
+		offset 216.328
 		object
 			sprite planet/callisto
 			distance 268
@@ -11362,8 +11398,9 @@ system Nortear
 			period 32.3902
 	object
 		sprite planet/uranus
-		distance 2033.94
-		period 1467.67
+		distance 2249.94
+		period 1707.56
+		offset 42.2994
 		object
 			sprite planet/dust4
 			distance 219
@@ -14012,6 +14049,7 @@ system Sko'karak
 
 system Soakle'deen
 	pos -982.485 641.946
+	government Avendri
 	habitable 1400
 	link Marbin
 	link Noodeld
@@ -14020,6 +14058,8 @@ system Soakle'deen
 	asteroids "large rock" 8 4.1391
 	asteroids "medium metal" 20 3.0051
 	asteroids "large metal" 6 8.0514
+	fleet "Avendri Merchants" 600
+	fleet "Kuk pilgrims" 600
 	object
 		sprite star/g0
 		distance 29.4857
@@ -14041,7 +14081,7 @@ system Soakle'deen
 			sprite planet/dust0
 			distance 169
 			period 22.8905
-	object
+	object Mubid
 		sprite planet/gas17
 		distance 1438.45
 		period 583.23
@@ -14240,6 +14280,7 @@ system Sospi
 
 system Sought
 	pos -870.81 658.926
+	government Avendri
 	habitable 553.28
 	link Lizno's
 	link Nortear
@@ -14250,6 +14291,8 @@ system Sought
 	asteroids "small metal" 12 6.1236
 	asteroids "medium metal" 5 6.804
 	asteroids "large metal" 6 5.2974
+	fleet "Avendri Merchants" 600
+	fleet "Kuk pilgrims" 300
 	object
 		sprite star/m0
 		distance 38.3684
@@ -14263,7 +14306,7 @@ system Sought
 		sprite planet/rock4
 		distance 264.042
 		period 72.9619
-	object
+	object Nuused
 		sprite planet/forest4
 		distance 538.252
 		period 212.356
@@ -16860,6 +16903,11 @@ planet Cloudfire
 	shipyard "Hai Basics"
 	outfitter "Hai Intermediate"
 
+planet Collolo
+	landscape land/badlands2
+	description `This is the only habbitable planet in this system, and even so just barely. You notice that the gravity here is particularily weak. The soil here produces only a single type of very tall plant which can be seen all over the planet's surface. The predominent color of this planet is a tanish brown which  seems very unesthtetic to your own human eyes. The natives who live here are also very tall due to the low gravity.`
+	spaceport `The facilties at this space port are adequate but not as full featured as you've seen on other worlds in this part of space. There are a surprising number of aliens here, considering that you see nothing on this planet of any real value. You speculate that the people who live here must have some other reason that is not obvious to you.`
+
 planet Cornucopia
 	attributes south farming research frontier
 	landscape land/fields0
@@ -17044,6 +17092,11 @@ planet "Far'en Lai"
 	"required reputation" -1000
 	bribe 0
 	security 0
+
+planet Farestla
+	landscape land/city9
+	description `This planet houses one of the greatest cities and largest populations that you've seen thus far in this part of space. Farestla is the homeworld of the Avendri. Sprawling architecture and beautiful artworks can be seen throughout much of the planet. Ships are busy coming to and from the planet's many space centers, bring people, food, supplies, medicines, and the many other commodities need by the people of this fantastic and thriving world. Though there are not many different types of aliens here, racism has little meaning to these people and you are welcomed with the excellent hospitality you've come to expect from these people.`
+	spaceport `As you set down on one the the space centers located around the planet, your admire the skyline of the city. Unlike most human cities, the layouts on this world are a paragon of order and artistic achievement. There are many places here to service your ship, and to buy outfits both strange and exotic.`
 
 planet Farpoint
 	attributes north military frontier
@@ -17261,6 +17314,11 @@ planet Geyser
 	tribute 1300
 		threshold 3500
 		fleet "Large Militia" 20
+
+planet Gilaana
+	landscape land/valley8
+	description `This world is a paradise that would rival any seen in the republic. The climate here seems to be artificially controlled, giving the entire planet a perfect atmosphere and temperature. As you fly above the surface you observe many bird like creatures with two sets of wings, that resemble those of dragonflies seen on old earth. Setting down on the surface, you find that you could lose yourself in the rich smells of due and flows which permeate every part of the planet. There appears to be no winter on any part of the planet, the closest thing being gentle showers that appear from time to time evenly on the planet's continents.`
+	spaceport `Unlike on human worlds, the population on this paradise world is quite thick. Instead of cities of glass and steal, the people here built their city centers out of the various types of native trees that grow here. There is a balance with nature that exists here, which spreads even to there spaceport. The landing pads are surrounded by splendid gardens which you can't help but admire as you set down. The people here welcome you with gracious hospitality.`
 
 planet Giverstone
 	attributes hai
@@ -17593,6 +17651,16 @@ planet "Kraken Station"
 		threshold 3500
 		fleet "Small Syndicate" 7
 
+planet Krizane
+	landscape land/badlands3
+	description `The planets surface here is chared and seemlingly devoid of life, but upon closer inspection this world is teaming with it. The plants and animals of this world seem to be extremly adapted to camaphloging themselves to blend in to the native rock, which is distinctively charcoal in color. There seems to be a small gathering of civilization on the far part of planet, but most of the world has been left wild.`
+	spaceport `The facilities here are far better than you originally anticipate. The aliens here have a full space center service albiet limited. You learn that the soil of this world is poorly adapted to the farming methods used by the aliens of this system. It requires that most of there food be exported to the planet. The main export of the ships leaving the center apears to be minerals of various sorts.`
+
+planet Kukul
+	landscape land/beach0
+	description `Kuk Test`
+	spaceport `Kuk Test`
+
 planet Lagrange
 	attributes quarg tourism
 	landscape land/station2
@@ -17837,6 +17905,11 @@ planet Moonshake
 	tribute 1200
 		threshold 3500
 		fleet "Large Syndicate" 7
+
+planet Mubid
+	landscape land/water4
+	description `Almost the entirety of this planet's surface is covered in water, yet surprising enough the aliens that live here have built ingenious floating cities all throughout the planet. With the largest landmass's on this world being only a few kilometers across, the natives here seemed to have reserved the dry parts of the planets for ceremonial purpose. You are giving clear signals to stay away from land masses, but are otherwise free to observe the planet as you will.     `
+	spaceport `The spaceport here is built on one of the largest floating cities. The facility, however, is so large and so stable that it is indistinguishable from land. You are very impressed by the engineering ability of the people of this world.`
 
 planet "Muninn Station"
 	attributes deep station military
@@ -18110,6 +18183,11 @@ planet Norn
 		threshold 3000
 		fleet "Small Deep" 12
 
+planet Nuused
+	landscape land/city11
+	description `Nuused was one of the first planets to be colonized by these people. Buildings here are as new and as elegant as any you've seen in the region, and nothing looks old or broken down. Indeed, if not told so by the some the local population, you would have never known that this world was colonized thousands of years ago. Strangely enough, the people of this world have a strange custom of collecting exotic animals, as a sort of competition with their neighbors. Because you are an alien visitor, many approach you asking about the different creatures you've encountered on your many travels.`
+	spaceport `The space ports on the planet are particularly clean and efficient. As you land your greeted by what appear to be routine inspection personnel. They assist you in finding all the facilities necessary in servicing your ship.`
+
 planet Oasis
 	attributes rim farming textiles
 	landscape land/dune4
@@ -18143,6 +18221,11 @@ planet Oblivion
 		threshold 3000
 		fleet "Large Militia" 8
 
+planet Ozary
+	landscape land/fields11-sfiera
+	description `The planet here seems to be close to idyllic by your own standards. The atmosphere is clean and oxygen rich, and the wildlife is thriving. Though not untouched by it's alien residence, the population here seems to be small and environmentally responsible. You can imagine this planet being an ideal local for human tourists of the future.`
+	spaceport `The spaceport here is fairly basic. There is a refueling station and and establishment to service your ship, but other than that this planet has little more for you at present, except for a refreshing view and restful location.`
+
 planet Pearl
 	attributes paradise tourism
 	landscape land/forest3
@@ -18154,6 +18237,11 @@ planet Pearl
 	tribute 2800
 		threshold 6000
 		fleet "Large Republic" 11
+
+planet "Phink Station"
+	landscape land/space1
+	description `This facility seems to be largely built for manufacturing ships. As you enter the system you observe ships come to and from the station delivering minerals from other planets in the region. The shipyards on this facility seem primed and active. Oddly enough you see few warships, but mostly multipurpose vessels that seem to be the most common type used by these people. In the typical manner of the locals, they allow you to enter the facility with any security check. You take the opportunity to observe and study there shipbuilding methods.`
+	spaceport `The vessels here come in a plethora of shapes and sizes. Large cargo vessels are in the process of being constructed, and you take time to observe and admire the craftsmanship of these friendly people. The scale of the ships built here are very large and easily rival anything built in human space, or by any other culture you've seen for that matter`
 
 planet "Phoenix Station"
 	attributes deep station
@@ -18386,6 +18474,11 @@ planet Shroud
 	tribute 3800
 		threshold 7000
 		fleet "Large Republic" 14
+
+planet Sikdle
+	landscape land/snow2
+	description `Much of this world is ice covered and hardly habitable. Life here, does however, prosper. The ecosystem is strange, but follows an expected course for creatures of and ice world. Most of the animals here are large and covered in fur. Oddly enough, the plants here are also, for the most part, fur covered. It is also worth noting that the fur covered plants of this planet are far more dangerous than the more mobile creatures.`
+	spaceport `This space port is the westernmost outpost for the Avendri. There people do not go much further into space than this, and the facility's here are sparse but adequate.`
 
 planet Silver
 	attributes "near earth" oil
