@@ -449,7 +449,8 @@ system Cribbain
 
 system "Da Ent"
 	pos -6.22391 -462.536
-system Darder'gug
+
+system "Darder'gug"
 	pos -1310.81 208.926
 	habitable 320
 	link Golzdig
@@ -587,7 +588,7 @@ system Dergath
 			distance 361
 			period 22.8091
 
-system Di'Loma
+system "Di'Loma"
 	pos -1228.69 435.776
 	habitable 425.92
 	link Azool
@@ -703,6 +704,7 @@ system Doolce
 	fleet "Large Southern Pirates" 500
 	fleet "Large Syndicate" 2000
 	fleet "Korath Raid" 20000
+
 system Eggder
 	pos -1188.45 289.054
 	habitable 1080
@@ -750,16 +752,6 @@ system Eggder
 			distance 528
 			period 31.8666
 
-system "Ehma Ti"
-	pos 39.1085 -749.244
-	government "Hai (Unfettered)"
-	habitable 486.68
-	link "Wah Yoot"
-	asteroids "small rock" 1 3.276
-	asteroids "medium rock" 1 1.7472
-	asteroids "large rock" 3 3.0576
-	asteroids "medium metal" 3 3.9858
-	asteroids "large metal" 1 3.549
 system Ezerteri
 	pos -1212.69 323.776
 	government Vo'ki
@@ -845,7 +837,7 @@ system Eznos
 		distance 2321.53
 		period 1789.7
 
-system Ezo'so
+system "Ezo'so"
 	pos -594.069 678.688
 	government Avendri
 	habitable 425.92
@@ -925,7 +917,8 @@ system Farus
 			sprite planet/dust7
 			distance 429
 			period 33.3178
-system Fi'meth
+
+system "Fi'meth"
 	pos -1067.69 418.776
 	habitable 2795
 	link Azoozle
@@ -962,7 +955,8 @@ system Fi'meth
 			sprite planet/rock7
 			distance 381
 			period 21.7944
-system Flaf'nef
+
+system "Flaf'nef"
 	pos -1021.69 566.776
 	government Kuk
 	habitable 625
@@ -1049,7 +1043,8 @@ system Furk
 			sprite planet/rock14
 			distance 388
 			period 28.6575
-system Gil'mine
+
+system "Gil'mine"
 	pos -1232.83 16.7742
 	habitable 1080
 	link Gis'cot
@@ -1091,7 +1086,7 @@ system Gil'mine
 			distance 283
 			period 12.1603
 
-system Gis'cot
+system "Gis'cot"
 	pos -1202.49 66.2563
 	habitable 2795
 	link Nor'tell
@@ -1201,7 +1196,7 @@ system Golzdig
 			distance 302
 			period 13.4053
 
-system Gor'zoth
+system "Gor'zoth"
 	pos -1172.45 343.41
 	habitable 1080
 	link Eggder
@@ -1255,7 +1250,7 @@ system Gor'zoth
 			distance 393
 			period 31.7284
 
-system Goz'doo
+system "Goz'doo"
 	pos -1365.81 241.926
 	habitable 135
 	link Darder'gug
@@ -1314,6 +1309,7 @@ system Goz'doo
 			sprite planet/rock17
 			distance 365
 			period 28.1328
+
 system Kiak
 	pos -796.687 574.776
 	government Avendri
@@ -1436,62 +1432,19 @@ system Kink
 		distance 2253.64
 		period 2073.59
 		offset 351.783
-
-	fleet "Korath Home" 2000
-		distance 184.41
-		period 30.4807
-		distance 571.85
-		period 166.445
 		object
 			sprite planet/europa
 			distance 163
 			period 16.9917
-		distance 1724.74
-		period 871.834
 	asteroids "small rock" 17 3.4713
 	asteroids "medium rock" 14 5.586
 	asteroids "large rock" 24 5.7456
 	asteroids "small metal" 6 2.0748
 	asteroids "medium metal" 63 3.192
 	asteroids "large metal" 3 4.5486
-		distance 673.9
-		period 327.831
-		object
-			sprite planet/lava2
-			distance 163
-			period 23.7466
-		distance 1786.9
-		period 1415.49
-		distance 1630.96
-		period 544.651
-		distance 2382.65
-		period 961.708
-		distance 1069.16
-		period 575.401
-		distance 1871.6
-		period 1332.68
-		distance 2761.21
-		period 2388.11
 	asteroids "large metal" 1 3.036
-		distance 265.91
-		period 118.461
-		object
-			sprite planet/dust7
-			distance 150
-			period 13.9414
-		distance 995.92
-		period 858.637
-		distance 1628.08
-		period 1794.68
-		distance 2310.97
-		period 3035.04
-		distance 1900.67
-		period 1249.98
-		object
-			sprite planet/dust1
-			distance 185
-			period 12.4028
-system Lizno's
+
+system "Lizno's"
 	pos -822.687 705.776
 	government Avendri
 	habitable 425.92
@@ -1558,26 +1511,27 @@ system Marbin
 			sprite planet/rock0
 			distance 191
 			period 22.5604
-		sprite planet/lava4
-		distance 788.48
-		period 429.123
-		sprite planet/ice5
-		distance 1237.64
-		period 843.893
-		sprite planet/titan
-		distance 1783.08
-		period 1459.33
-		sprite planet/gas7
-		distance 2454.52
-		period 2356.93
-			distance 250
-			period 14.0618
-			distance 354
-			period 23.6938
+		object
+			sprite planet/lava4
+			distance 788.48
+			period 429.123
+		object		
+			sprite planet/ice5
+			distance 1237.64
+			period 843.893
+		object
+			sprite planet/titan
+			distance 1783.08
+			period 1459.33
+		object	
+			sprite planet/gas7
+			distance 2454.52
+			period 2356.93
 		object
 			sprite planet/rock3
 			distance 492
 			period 38.822
+
 system Mebi
 	pos -639.419 782.851
 	habitable 1080
@@ -1623,11 +1577,11 @@ system Mebi
 			sprite planet/ice8
 			distance 415
 			period 22.2053
-
+	object
 		sprite planet/rock13
 		distance 171.16
 		period 50.0712
-	object Shorebreak
+	object
 		sprite planet/ocean9
 		distance 418.12
 		period 191.177
@@ -1652,6 +1606,7 @@ system Mink
 	asteroids "large metal" 17 2.4
 	object
 		sprite star/m8
+		distance 50
 		period 10
 	object
 		sprite planet/ocean3
@@ -1675,10 +1630,12 @@ system Mink
 		object
 			sprite planet/ice0
 			distance 378
-			period 31.3987
+		period 31.3987
+	object
 		sprite planet/callisto
 		distance 2065.75
 		period 3232.29
+		
 system Neblime
 	pos -696.069 694.688
 	government Avendri
@@ -2194,17 +2151,22 @@ system Sars'ze
 	trade Metal 390
 	trade Plastic 390
 	fleet "Avendri Merchants" 100
+	object	
 		sprite star/m4
 		period 10
+	object
 		sprite planet/dust6
 		distance 130.29
 		period 38.9482
+	object	
 		sprite planet/ice3
 		distance 478.58
 		period 274.191
+	object	
 		sprite planet/rock14
 		distance 785.58
 		period 576.643
+	object	
 		sprite planet/gas7
 		distance 1635.19
 		period 1731.7
@@ -2222,6 +2184,7 @@ system Sars'ze
 		sprite planet/gas11
 		distance 2331.95
 		period 2518.05
+		
 system Soakle'deen
 	pos -982.485 641.946
 	government Avendri
@@ -2235,18 +2198,23 @@ system Soakle'deen
 	asteroids "large metal" 6 8.0514
 	fleet "Avendri Merchants" 600
 	fleet "Kuk pilgrims" 600
+	object	
 		sprite star/g0
 		distance 29.4857
 		period 15.6632
+	object	
 		sprite star/m0
 		distance 99.5143
 		period 15.6632
+	object	
 		sprite planet/fog0
 		distance 296.764
 		period 54.6529
+	object	
 		sprite planet/rock12
 		distance 776.204
 		period 231.185
+		object
 			sprite planet/dust0
 			distance 169
 			period 22.8905
@@ -2254,15 +2222,19 @@ system Soakle'deen
 		sprite planet/gas17
 		distance 1438.45
 		period 583.23
+		object	
 			sprite planet/rock17
 			distance 207
 			period 12.7242
+		object	
 			sprite planet/callisto
 			distance 312
 			period 23.5454
+	object
 		sprite planet/uranus
 		distance 2463.7
 		period 1307.31
+
 system Soreem
 	pos -1185.81 143.926
 	habitable 425.92
@@ -2274,6 +2246,7 @@ system Soreem
 	asteroids "small metal" 14 6.9384
 	asteroids "medium metal" 35 5.1156
 	asteroids "large metal" 18 4.41
+	object	
 		sprite star/k5
 	object
 		sprite planet/rock6
@@ -2288,18 +2261,14 @@ system Soreem
 			distance 186
 			period 22.02
 	object
-		distance 985.55
-		period 599.672
 		sprite planet/gas17
 		distance 2114.8
 		period 1884.95
-			distance 222
-			period 14.132
-			distance 305
-			period 22.7574
+		object
 			sprite planet/rock0
 			distance 464
 			period 42.7022
+	object	
 		sprite planet/gas16
 		distance 2355.57
 		period 1104.26
@@ -2364,11 +2333,11 @@ system Sought
 		sprite planet/gas9
 		distance 3068.73
 		period 2890.85
+		object	
 			sprite planet/lava0
 			distance 264
 			period 16.0841
-			distance 416
-			period 31.8149
+		object
 			sprite planet/dust1
 			distance 521
 			period 44.591
@@ -2376,6 +2345,7 @@ system Sought
 			sprite planet/tethys
 			distance 605
 			period 55.7986
+			
 system Sudamai
 	pos -510.069 645.688
 	government Avendri
@@ -2490,12 +2460,10 @@ system Verus
 			distance 355
 			period 27.2396
 
-	bribe 0
-	description `This earthlike planet has been settled both by human beings and by the Hai, the species that controls this region of space. The human settlements are relatively small, mostly farming communities founded by people who came here to escape the chaos and uncertainty of human space.`
-	spaceport `	The New Port, on the other hand, is in the center of New Sidney, one of Chiron's largest cities. Its soaring architecture and gleaming mirrored glass is intended to make a clear statement, that Chiron is everything Earth is not: clean, modern, prosperous.`
+
 planet Collolo
 	landscape land/badlands2
-	description `This is the only habbitable planet in this system, and even so just barely. You notice that the gravity here is particularily weak. The soil here produces only a single type of very tall plant which can be seen all over the planet's surface. The predominent color of this planet is a tanish brown which  seems very unesthtetic to your own human eyes. The natives who live here are also very tall due to the low gravity.`
+	description `This is the only habitable planet in this system, and even so just barely. You notice that the gravity here is particularily weak. The soil here produces only a single type of very tall plant which can be seen all over the planet's surface. The predominent color of this planet is a tanish brown which seems very unaesthetic to your own human eyes. The natives who live here are also very tall due to the low gravity.`
 	spaceport `The facilties at this space port are adequate but not as full featured as you've seen on other worlds in this part of space. There are a surprising number of aliens here, considering that you see nothing on this planet of any real value. You speculate that the people who live here must have some other reason that is not obvious to you.`
 
 planet Crem'nee
@@ -2506,10 +2474,12 @@ planet Crem'nee
 
 	description `This planet seems to have all the conditions necessary for a vibrant, earth-like ecology. The gravity and temperature are moderate, and there is a fair amount of surface water, although the oceans are quite small. However, aside from a few stunted plants and lichen, there is almost no native life here. Given how skilled the Hai appear to be at terraforming other worlds, it is strange that this one has been left barren.`
 	description `The surface of this planet, when it is not obscured by dust storms, receives enough sunlight to power not only large solar farms, but solar furnaces as well, which the Hai use for manufacturing a large variety of goods. Some of the solar farms are so large that from orbit, the light reflecting off them could almost be mistaken for lakes and small oceans. However, there almost no water on the planet's surface except near the poles.`
+
 planet Farestla
 	landscape land/city9
 	description `This planet houses one of the greatest cities and largest populations that you've seen thus far in this part of space. Farestla is the homeworld of the Avendri. Sprawling architecture and beautiful artworks can be seen throughout much of the planet. Ships are busy coming to and from the planet's many space centers, bring people, food, supplies, medicines, and the many other commodities need by the people of this fantastic and thriving world. Though there are not many different types of aliens here, racism has little meaning to these people and you are welcomed with the excellent hospitality you've come to expect from these people.`
 	spaceport `As you set down on one the the space centers located around the planet, your admire the skyline of the city. Unlike most human cities, the layouts on this world are a paragon of order and artistic achievement. There are many places here to service your ship, and to buy outfits both strange and exotic.`
+
 planet "Flool Station"
 	landscape land/avendri_stationinterior1
 	description `This station seems to have a little bit of everything, albiet everything alien. The station is very large and you observe everything from ship building facilietys to elaborate singing halls. You are barely noticed in the crowded halls of aliens. The smell of the crowd burns your nose, which seems to be more sensitive than that of other species. You observe various species, who mostly seem to stick to there group, aparently for saftey. Though fascinating, the whole prominod feels some what unsafe.`
@@ -2520,14 +2490,11 @@ planet Follisnern
 	description `Follisnern is a largely wet planet full of ponds, lakes and rivers. The natives here don't seem to like the dampness any more than you do, and keep in tightly clustered communities underneath huge domes. The domes they live under are hermetically sealed though you cannot see why as the atmosphere here is breathable for yourself and apparently the natives who live here as well, who wander in and out of their structures through special hatches.`
 	spaceport `The natives are friendly and welcome you into most areas of their cittie. The sections that are sealed off, however, are guarded by large aliens holding blasters. You get some aggressive looks as you pass by, and you feel no temptation to see what is behind the guarded doors. As you explore the city you pass various unusually shaped structures and witness vendors serving food in a manner that almost mirrors the way it's done on human planets.`
 
-	description `Follower is on the edge of the "paradise planets" region of space; not really one of them yet, but aspiring to be. It is prosperous, but from manufacturing rather than law or finance or venture capitalism. A significant fraction of the local taxes collected here are being spent on terraforming, raising global temperatures and reducing seasonal fluctuations. The goods produced here always have a ready market to purchase them, so Follower's job economy in considered very stable.`
-	description `Geminus, although not the most hospitable of planets, is a young enough planet that large stores of iron, titanium, and other metals are easily accessible near the surface. For that reason, it has become one of the Republic's primary shipyards. More than half of the warships in the navy were constructed here.`
 planet Gilaana
 	landscape land/valley8
 	description `This world is a paradise that would rival any seen in the republic. The climate here seems to be artificially controlled, giving the entire planet a perfect atmosphere and temperature. As you fly above the surface you observe many bird like creatures with two sets of wings, that resemble those of dragonflies seen on old earth. Setting down on the surface, you find that you could lose yourself in the rich smells of due and flows which permeate every part of the planet. There appears to be no winter on any part of the planet, the closest thing being gentle showers that appear from time to time evenly on the planet's continents.`
 	spaceport `Unlike on human worlds, the population on this paradise world is quite thick. Instead of cities of glass and steal, the people here built their city centers out of the various types of native trees that grow here. There is a balance with nature that exists here, which spreads even to there spaceport. The landing pads are surrounded by splendid gardens which you can't help but admire as you set down. The people here welcome you with gracious hospitality.`
 
-	description `Hopper is a temperate world of oceans, mountains, and plains, but with unfortunately high levels of sulfuric acid in its atmosphere. Metal and stone that are exposed to the atmosphere corrode quickly, requiring frequent maintenance. As a result, Hopper has only a few small settlements on it, and most of the industry is focused on underground mining. The oceans are populated only by a few indigenous life forms that have adapted to their high acidity; earth fish could not be introduced successfully here.`
 planet Krizane
 	landscape land/badlands3
 	description `The planets surface here is chared and seemlingly devoid of life, but upon closer inspection this world is teaming with it. The plants and animals of this world seem to be extremly adapted to camaphloging themselves to blend in to the native rock, which is distinctively charcoal in color. There seems to be a small gathering of civilization on the far part of planet, but most of the world has been left wild.`
@@ -2538,6 +2505,7 @@ planet Kukul
 	description `Kuk Test`
 	spaceport `Kuk Test`
 	attributes quarg tourism
+
 planet Marssus
 	landscape land/badlands0
 	description `The first thing you notice on this planet is the distinct texture of desserts. The wind pattern of this world blows the dunes into unique and surreal formations. With the climate of this planet being what it is, you are surprised anyone has settled here at all. There are no large bodies of water on this planet. The natives seem to get most of the water they need from huge atmosphere condensers.`
@@ -2545,6 +2513,7 @@ planet Marssus
 
 planet "Matt Station"
 	landscape ""
+	description `STATION`
 
 planet Mubid
 	landscape land/water4
@@ -2566,17 +2535,11 @@ planet "Phink Station"
 	description `This facility seems to be largely built for manufacturing ships. As you enter the system you observe ships come to and from the station delivering minerals from other planets in the region. The shipyards on this facility seem primed and active. Oddly enough you see few warships, but mostly multipurpose vessels that seem to be the most common type used by these people. In the typical manner of the locals, they allow you to enter the facility with any security check. You take the opportunity to observe and study there shipbuilding methods.`
 	spaceport `The vessels here come in a plethora of shapes and sizes. Large cargo vessels are in the process of being constructed, and you take time to observe and admire the craftsmanship of these friendly people. The scale of the ships built here are very large and easily rival anything built in human space, or by any other culture you've seen for that matter`
 
-	description `Reunion is one of the most earth-like planets found by the early settlers, all the way down to its moon and tides. It has grown into a mostly urban world, which supplies manufactured goods of all sorts to the neighboring systems.`
-	description `	Local politics are unusually lively for a Republic world, to the point where a seat in the local parliament is often more hotly contested than one in the Republic Senate. Topics of debate include trade and taxation, of course, but also seemingly fringe issues like biodiversity regulations for city green space. It may be that a world with no terraforming needs is focusing instead on tweaking society itself.`
-	description `Shorebreak is an ocean world which is home to a stunning profusion of alien life, some of which is not too dissimilar from life on earth. The first settlement, centuries ago, was built as a marine biology laboratory, and from there the planet gradually grew into a regional center for bioengineering, where local life forms are tested for possible use in human medicine.`
 planet Sikdle
 	landscape land/snow2
 	description `Much of this world is ice covered and hardly habitable. Life here, does however, prosper. The ecosystem is strange, but follows an expected course for creatures of and ice world. Most of the animals here are large and covered in fur. Oddly enough, the plants here are also, for the most part, fur covered. It is also worth noting that the fur covered plants of this planet are far more dangerous than the more mobile creatures.`
 	spaceport `This space port is the westernmost outpost for the Avendri. There people do not go much further into space than this, and the facility's here are sparse but adequate.`
 
-	spaceport `On Sunracer, the spaceport and shipyard are one and the same. As you walk among the landing pads and hangars, it is not immediately clear which ships are visiting starships undergoing minor repairs, and which are new ones under construction. A series of enormous cranes tower over one section of landing pads. From them hang hull fragments, engines, and even a few small ships, each being swung from one location within the shipyard to another. Meanwhile, forklifts and flatbed truck are weaving between the buildings in every direction.`
-	description `This is an earth-like world with one major Wanderer city and countless smaller settlements. The settlements mostly consist of tree-houses built high up in living trees. The architecture of the city skyscrapers is full of cantilevered balconies and arches, mimicking the natural shape of a forest. Here and there a bit of smoke or steam rises from what must be a factory or power plant, but most of the land outside the city is green fields and pristine oceans.`
-	spaceport `It is easy to distinguish the local workers from the visitors, because the locals wrap their wings in thin white sheets of cloth rather than leaving them bare: a necessary protection for any Wanderer who chooses to fly outside of the protective shade of the spaceport. Many of the building here extend deep underground, to where the surrounding bedrock is cooler than the hot sands at the surface.`
 planet Vor'hmol
 	landscape land/vor'hmol
 	description `The atmosphere here is cool and pleasant and you can see why these people chose to make this planet there home. As you view the planet from the sky you see farms stretching as far as the eyes can see. The people of the planet seem to be masters of growing crops. Indeed, you can see no industrial equipment anywhere, though the people here are obviously civilized, as you see ships going to and from the planet.`
@@ -2589,5 +2552,3 @@ planet Vorus
 	landscape land/mountain0
 	description `There aren't many creatures that live here, but the ones that do are tough and mean. The planet itself is quite cold, by your own standards, and the lack of facilities makes it a wonder that any space faring species would want to call this planet home.`
 	spaceport `The landing pads here are very unique structures, cut entirely out of huge sheets of ice. The platforms themselves seem to be specially treated with some outer material that creates friction and keeps the permafrost from melting at all. The residents here give you stern looks, but are mostly accepting of your presence.`
-
-	landscape ""
