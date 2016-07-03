@@ -748,13 +748,59 @@ system Ezo'so
 system Farus
 	pos -1176.83 -25.2258
 	government "Reluvethel Faebalar"
-	habitable nan
+	habitable 425.92
 	link Gil'mine
 	link Seldanna
 	asteroids "large rock" 1 1.4014
 	asteroids "small metal" 3 0.9548
 	asteroids "medium metal" 1 1.3244
 	asteroids "large metal" 9 2.233
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert5
+		distance 164.89
+		period 41.0381
+	object
+		sprite planet/rock9
+		distance 446.58
+		period 182.913
+	object Thalia
+		sprite planet/ocean7
+		distance 992.39
+		period 605.926
+		offset 143.378
+		object "Lathai Station"
+			sprite planet/station2
+			distance 171
+			period 24.5883
+			offset 360
+	object
+		sprite planet/tethys
+		distance 1971.75
+		period 1696.97
+		offset 31.2846
+	object
+		sprite planet/gas7
+		distance 3172.48
+		period 3463.34
+		offset 315.573
+		object
+			sprite planet/rhea
+			distance 249
+			period 13.9775
+			offset 202.825
+		object
+			sprite planet/oberon
+			distance 334
+			period 21.7145
+			offset 321.103
+		object
+			sprite planet/desert4
+			distance 457
+			period 34.754
+			offset 346.666
 
 system Fenlamin
 	pos -1365.81 241.926
@@ -895,7 +941,7 @@ system Furk
 system Gil'mine
 	pos -1232.83 16.7742
 	government "Reluvethel Faebalar"
-	habitable 1080
+	habitable 973.36
 	link Gis'cot
 	link Farus
 	link Seldanna
@@ -905,36 +951,47 @@ system Gil'mine
 	asteroids "medium metal" 13 1.4364
 	asteroids "large metal" 30 1.5624
 	object
-		sprite star/g0
-		period 10
+		sprite star/k0
+		distance 54
+		period 14.3899
+		offset 180
 	object
-		sprite planet/rock15
-		distance 187.84
-		period 31.335
+		sprite star/k0
+		distance 54
+		period 14.3899
 	object
-		sprite planet/desert6
-		distance 391.8
-		period 94.3941
+		sprite planet/desert8
+		distance 201.49
+		period 36.6694
 	object
-		sprite planet/gas7
-		distance 991.05
-		period 379.744
+		sprite planet/rock19
+		distance 411.18
+		period 106.898
+	object Tarathiel
+		sprite planet/cloud3
+		distance 1070.43
+		period 449.017
+		offset 280.668
 		object
-			sprite planet/dust4
-			distance 252
-			period 14.2309
+			sprite planet/rock17
+			distance 163.72
+			period 23.0349
+			offset 19.1857
 		object
-			sprite planet/dust5
-			distance 417
-			period 30.2925
+			sprite planet/europa
+			distance 241.047
+			period 41.1516
+			offset 190.272
 	object
-		sprite planet/gas6
-		distance 2177.01
-		period 1236.34
-		object
-			sprite planet/rhea
-			distance 283
-			period 12.1603
+		sprite planet/lava2
+		distance 1966.89
+		period 1118.39
+		offset 120.665
+	object
+		sprite planet/luna
+		distance 3302.05
+		period 2432.76
+		offset 29.6875
 
 system Gis'cot
 	pos -1202.49 66.2563
@@ -1015,29 +1072,46 @@ system Illitran
 		sprite star/f5
 		period 10
 	object
-		sprite planet/tethys
-		distance 156.56
-		period 18.9212
+		sprite planet/lava6
+		distance 233.16
+		period 34.3882
 	object
-		sprite planet/gas13
-		distance 772.52
-		period 207.392
+		sprite planet/lava2
+		distance 431.41
+		period 86.5492
+	object Marikoth
+		sprite planet/ocean8
+		distance 1123.7
+		period 363.834
+		offset 351.429
+	object
+		sprite planet/gas10
+		distance 2154.71
+		period 966.076
+		offset 356.634
 		object
-			sprite planet/dust5
-			distance 306
-			period 15.111
-	object
-		sprite planet/cloud1
-		distance 1293.16
-		period 449.165
+			sprite planet/dust7
+			distance 229
+			period 18.2411
 	object
 		sprite planet/gas15
-		distance 1839.6
-		period 762.102
+		distance 3137.1
+		period 1697.15
+		offset 245.644
 	object
-		sprite planet/gas5
-		distance 3994.89
-		period 2438.85
+		sprite planet/gas9
+		distance 3825.15
+		period 2285.07
+		offset 276.542
+		object
+			sprite planet/rock17
+			distance 208
+			period 11.2483
+	object
+		sprite planet/uranus
+		distance 4875.14
+		period 3287.82
+		offset 278.063
 
 system Kiak
 	pos -796.687 574.776
@@ -1452,7 +1526,7 @@ system Mylaerla
 			sprite planet/rhea
 			distance 173
 			period 28.0416
-	object
+	object Katyr
 		sprite planet/forest5
 		distance 734.98
 		period 361.286
@@ -1675,7 +1749,7 @@ system Noodeld
 system Nor'tell
 	pos -1232.81 105.926
 	government "Reluvethel Faebalar"
-	habitable 625
+	habitable 1050.92
 	link Soreem
 	link Gis'cot
 	asteroids "small rock" 6 3.5136
@@ -1686,35 +1760,44 @@ system Nor'tell
 	asteroids "large metal" 4 3.4848
 	object
 		sprite star/g5
-		period 10
+		distance 47.0128
+		period 15.4157
+		offset 180
+	object
+		sprite star/k5
+		distance 68.9872
+		period 15.4157
 	object
 		sprite planet/lava6
-		distance 131.81
-		period 24.2127
+		distance 204.277
+		period 36.0251
 	object
-		sprite planet/rock17
-		distance 448.06
-		period 151.748
+		sprite planet/rock11
+		distance 368.517
+		period 87.2895
+	object "Anhaern Permenor"
+		sprite planet/forest0
+		distance 957.719
+		period 365.706
+		offset 114.991
 	object
-		sprite planet/tethys
-		distance 684.02
-		period 286.235
-	object
-		sprite planet/gas10
-		distance 1430.58
-		period 865.741
+		sprite planet/gas13
+		distance 1796.76
+		period 939.744
+		offset 161.063
 		object
-			sprite planet/desert4
-			distance 226
-			period 17.8838
+			sprite planet/luna
+			distance 262
+			period 11.9719
 		object
-			sprite planet/lava0
-			distance 345
-			period 33.7307
+			sprite planet/dust4
+			distance 419
+			period 24.212
 	object
-		sprite planet/neptune
-		distance 3518.02
-		period 3338.62
+		sprite planet/gas1
+		distance 2483.97
+		period 1527.55
+		offset 65.9872
 
 system Noresk'phi
 	pos -1146.69 378.776
@@ -2446,7 +2529,7 @@ system Verus
 system Wyrren
 	pos -1260.69 190.776
 	government "Reluvethel Daeroris"
-	habitable 806.68
+	habitable 425.92
 	link Elisven
 	link Rosario
 	link Soreem
@@ -2456,39 +2539,56 @@ system Wyrren
 	asteroids "medium metal" 24 2.574
 	asteroids "large metal" 26 1.911
 	object
-		sprite star/k0
-		distance 36.892
-		period 12.6309
-		offset 180
+		sprite star/k5
+		period 10
 	object
-		sprite star/m0
-		distance 56.108
-		period 12.6309
+		sprite planet/desert8
+		distance 186.96
+		period 49.5472
+	object Teryani
+		sprite planet/forest4
+		distance 522.32
+		period 231.367
+		offset 90.6837
 	object
-		sprite planet/rock2
-		distance 271.518
-		period 63.0097
-	object
-		sprite planet/gas0
-		distance 993.808
-		period 441.228
+		sprite planet/gas10
+		distance 1177.13
+		period 782.767
+		offset 111.895
 		object
-			sprite planet/europa
-			distance 286
-			period 14.1744
+			sprite planet/luna
+			distance 187
+			period 13.4605
 		object
 			sprite planet/lava0
-			distance 390
-			period 22.5711
+			distance 287
+			period 25.5929
+		object
+			sprite planet/rock7
+			distance 462
+			period 52.2709
 	object
-		sprite planet/gas3
-		distance 1886.5
-		period 1153.97
+		sprite planet/gas16
+		distance 3101.29
+		period 3347.41
+		offset 9.06229
+		object
+			sprite planet/ice8
+			distance 230
+			period 18.3607
+		object
+			sprite planet/desert4
+			distance 319
+			period 29.9905
+		object
+			sprite planet/tethys
+			distance 428
+			period 46.6083
 
 system Zaleria
 	pos -1188.45 289.054
 	government "Reluvethel Daeroris"
-	habitable 1080
+	habitable 368.28
 	link Rosario
 	link Nithroel
 	asteroids "small rock" 13 4.32
@@ -2498,40 +2598,51 @@ system Zaleria
 	asteroids "medium metal" 110 5.4
 	asteroids "large metal" 64 4.05
 	object
-		sprite star/g0
-		period 10
+		sprite star/m4
+		distance 33.3578
+		period 18.0939
+		offset 180
 	object
-		sprite planet/lava2
-		distance 153.04
-		period 23.0439
+		sprite star/m8
+		distance 57.6422
+		period 18.0939
 	object
-		sprite planet/rock3
-		distance 320.29
-		period 69.7691
+		sprite planet/ganymede
+		distance 202.732
+		period 60.1666
+	object Elincia
+		sprite planet/rock18
+		distance 545.908
+		period 265.858
+		offset 176.762
+		object
+			sprite planet/rock0
+			distance 152
+			period 23.5574
+			offset 192.28
 	object
-		sprite planet/cloud5
-		distance 550.33
-		period 157.139
+		sprite planet/gas4
+		distance 1340.6
+		period 1023.1
+		offset 210.573
+		object
+			sprite planet/callisto
+			distance 243
+			period 13.36
 	object
-		sprite planet/gas12
-		distance 2248.77
-		period 1297.97
+		sprite planet/jupiter
+		distance 1996.24
+		period 1859.04
+		offset 69.3648
 		object
-			sprite planet/dust0
-			distance 252
-			period 10.5072
-		object
-			sprite planet/io
-			distance 336
-			period 16.1768
-		object
-			sprite planet/dust1
-			distance 425
-			period 23.0127
-		object
-			sprite planet/europa
-			distance 528
-			period 31.8666
+			sprite planet/dust5
+			distance 251
+			period 12.496
+	object
+		sprite planet/gas0
+		distance 3080.48
+		period 3563.67
+		offset 21.7254
 
 planet Albondiel
 	landscape land/fog5
@@ -2547,6 +2658,13 @@ planet "Almithara Station"
 	spaceport `This spaceport is tiny- all there is is a canteen which serves some horrible food which reminds you of the free school meals you got as a kid.`
 	"required reputation" 1000
 
+planet "Anhaern Permenor"
+	landscape land/valley10-sfiera
+	description `Anhaern Permenor is one of the older Faebalar worlds. While it was settled a century or two after Tarathiel, the same feelings of discontent with the Daeroris government ran through the vast majority of the population. A few decades after the revolution, the Daeroris officials assigned to this world are now rotting at the bottom of the sea. While Anhaern Permenor is not the leader of the Faebalar movement, it is by far one of the most fiery member worlds in the fight against the Daeroris.`
+	description `	Towards the colder end of the system's habitable zone, Anhaern Permenor is just about the right temperature for humans to thrive, although it feels permanently like winter for the Reluvethel.`
+	spaceport `Most of the spaceport is in ruins. Destroyed during the Faebalar uprising, all that remains are some burnt-out hulks. While there are plans to build a new spaceport, one without all of the disgusting splendour of Daeroris culture, it has not materialised, although many Anhaernens understand that it is due to the effort required to fight the war against the Daeroris.`
+	"required reputation" 100
+
 planet Collolo
 	landscape land/badlands2
 	description `This is the only habitable planet in this system, and even so just barely. You notice that the gravity here is particularily weak. The soil here produces only a single type of very tall plant which can be seen all over the planet's surface. The predominent color of this planet is a tanish brown which seems very unaesthetic to your own human eyes. The natives who live here are also very tall due to the low gravity.`
@@ -2559,6 +2677,12 @@ planet Crem'nee
 	description `	This planet seems to have all the conditions necessary for a vibrant, earth-like ecology. The gravity and temperature are moderate, and there is a fair amount of surface water, although the oceans are quite small. However, aside from a few stunted plants and lichen, there is almost no native life here. Given how skilled the Hai appear to be at terraforming other worlds, it is strange that this one has been left barren.`
 	description `	The surface of this planet, when it is not obscured by dust storms, receives enough sunlight to power not only large solar farms, but solar furnaces as well, which the Hai use for manufacturing a large variety of goods. Some of the solar farms are so large that from orbit, the light reflecting off them could almost be mistaken for lakes and small oceans. However, there almost no water on the planet's surface except near the poles.`
 	spaceport `The spaceport here is a seaside facility that would be far more scenic for humans such as yourself, if it wasn't for the stench of the planet's natural atmosphere. There are many food sellers here vying for your attention but your stomach turns at the thought.`
+
+planet Elincia
+	landscape land/city2
+	description `Elincia is a world almost perpetually shrouded by enormous clouds of dust. A few decades ago, a meteor impacted the planet in one of the most desertlike areas. It threw up a veil of dust which to thsi day has not cleared by any discernable amount. Despite this, the planet is still heavily populated, although it takes massive amounts of effort to shift sufficient amounts of food onto the planet surface in order to feed the inhabitants.`
+	spaceport `The spaceport feels very human. With very traditional, right-angled walls, corridors, and ceilings, and even a logical layout to boot, it seems very odd- like it belongs somewhere else.`
+	"required reputation" 500
 
 planet Farestla
 	landscape land/city9
@@ -2580,6 +2704,13 @@ planet Gilaana
 	description `This world is a paradise that would rival any seen in the republic. The climate here seems to be artificially controlled, giving the entire planet a perfect atmosphere and temperature. As you fly above the surface you observe many bird like creatures with two sets of wings, that resemble those of dragonflies seen on old earth. Setting down on the surface, you find that you could lose yourself in the rich smells of due and flows which permeate every part of the planet. There appears to be no winter on any part of the planet, the closest thing being gentle showers that appear from time to time evenly on the planet's continents.`
 	spaceport `Unlike on human worlds, the population on this paradise world is quite thick. Instead of cities of glass and steal, the people here built their city centers out of the various types of native trees that grow here. There is a balance with nature that exists here, which spreads even to there spaceport. The landing pads are surrounded by splendid gardens which you can't help but admire as you set down. The people here welcome you with gracious hospitality.`
 
+planet Katyr
+	landscape land/sky9
+	description `Katyr has only been settled very recently by the Faebalar- as with most of their other planets, it consists almost entirely of unexplored steppes and pristine biospheres. While there are a number of small, decentralised farming villages, most civilisation on Katyr is based around the few main equatorial cities, so placed due to the harsh winters.`
+	description `	The people here are hardened warriors, for the most part, due to the frequent clashes between Daeroris and the Faebalar which occur in this sytem.`
+	spaceport `The spaceport is in the largest city on the planet. While you do not see many Faebalar here, the few that you do encounter are dressed in somewhat rougher clothes than the Daeroris further south- it appears that the Faebalar are a people not of indulgence, but of hard work and devotion to a greater cause.`
+	"required reputation" 100
+
 planet Krizane
 	landscape land/badlands3
 	description `The planets surface here is chared and seemlingly devoid of life, but upon closer inspection this world is teaming with it. The plants and animals of this world seem to be extremly adapted to camaphloging themselves to blend in to the native rock, which is distinctively charcoal in color. There seems to be a small gathering of civilization on the far part of planet, but most of the world has been left wild.`
@@ -2591,12 +2722,25 @@ planet Kukul
 	description `Kuk Test`
 	spaceport `Kuk Test`
 
+planet "Lathai Station"
+	landscape land/space4
+	description `Lathai Station is an orbital defence platform designed by the Faebalar to be capable of unleashing a withering orbital bombardment upon the planet below in the event of a Daeroris uprising. As a result, there are little to no facilities here beyond those required to keep the dread arsenal fully functional.`
+	"required reputation" 1000
+
 planet Maescia
 	landscape land/valley8
 	description `Maescia is a land of endless forests and rolling banks of mist. Colonised only relatively recently by the Daeroris in their war against the Faebalar, a number of large areas have already been cleared to allow for landing pads and enormous mineshafts to be built.`
 	description `	There are rumours that a species of treefolk populate some of the deepest areas of woodland, although these have mostly been dismissed as myths.`
 	spaceport `The spaceport is in the biggest area of cleared land, almost five kilometres wide. Having seen the masses of trees from above as you were landing your ship, you feel like it's such a shame that so many of them have been cut down to make way for concrete landing areas- especially considering humanity's treatment of Earth before it achieved hyperdrive technology.`
 	"required reputation" 500
+
+planet Marikoth
+	landscape land/snow3
+	description `Marikoth is an icy planet with not much to offer any prospective settlers. However, it does have one important thing: metal deposits can be found very near to the surface. As a result, this has transformed from a blasted wasteland into a thriving hub of shipbuilding in Faebalar space.`
+	description `	Marikoth's axial tilt is exactly zero- there is no seasonal change here whatsoever. However, this is good for building settlements, as it means that they do not have to worry about glaciers creeping down towards the equator every year to gnaw at the feet of cities and towns.`
+	spaceport `The spaceport is a structure made entirely of quadruple-glazed glass. While such a display of extravagance is usually beyond the Faebalar, it seems that they have made this one exception, a monument to the prowess of their workers in constructing warships.`
+	spaceport `	The temperature is almost stiflingly hot inside, a stark contrast to the sharp air outside.`
+	"required reputation" 100
 
 planet Marssus
 	landscape land/badlands0
@@ -2631,6 +2775,30 @@ planet Sikdle
 	landscape land/snow2
 	description `Much of this world is ice covered and hardly habitable. Life here, does however, prosper. The ecosystem is strange, but follows an expected course for creatures of and ice world. Most of the animals here are large and covered in fur. Oddly enough, the plants here are also, for the most part, fur covered. It is also worth noting that the fur covered plants of this planet are far more dangerous than the more mobile creatures.`
 	spaceport `This space port is the westernmost outpost for the Avendri. There people do not go much further into space than this, and the facility's here are sparse but adequate.`
+
+planet Tarathiel
+	landscape land/city9
+	description `Tarathiel is the capital world of the communist Faebalar faction of Reluvethel. It is here that their centers of government are located. While for many humans, especially those from the evil capitalist Republic, communism means the degradation of their individual rights, here, the Faebalar have been able to develop a peaceful Communist society in which it is not necessary for individual rights to be restricted. As a result, the Faebalar are capable of putting all of their resources into the war against the Daeroris.`
+	description `	Tarathiel has a climate very similar to Albondiel, the homeworld of the Reluvethel- in fact, it was the first exoplanet colonised by the Reluvethel as a species. However, the days are somewhat longer than on Albondiel, and the seasonal changes are far less dramatic.`
+	spaceport `The spaceport is easily identifiable, a towering complex in the middle of the capital city. The stones used to build it are draped in red.`
+	spaceport `	While the spaceport is surprisingly well adapted to civilians movement considering the fact that not only are the Faebalar at war, they are also a rebel faction, there is an ominously large amount of infrastructure clearly intended for military use.`
+	"required reputation" 500
+
+planet Teryani
+	landscape land/bwerner2
+	description `Teryani is a Daeroris world being continually strip mined for resources. Thankfully, though, this does not include blatant trampling over other, more basic organisms like plants- Teryani is naturally devoid of water and therefore life. `
+	description `	This is a young world, and as a result, it is still very hot from the hyperactive tectonic processes within the mantle. Due to this, the Daeroris must wear special heat-retardant suits in order to survive. The same goes for you and your crew.`
+	spaceport `This spaceport is, oddly, dug into the side of a mountain, with bays for ships dotted all over the surrounding valleys. From here, there is direct access to the mines, presumably to allow recently-recruited workers to be shuttled straight to their designated shaft in which they will be digging.`
+	spaceport `	While the structures seem fairly strong, you are somewhat wary of the ship bays. Considering all of this planet's tectonic activity, it seems all too likely that a small shift in the rocks could crush you and your fleet...`
+	"required reputation" 500
+
+planet Thalia
+	landscape land/mountain14-sfiera
+	description `While many of Thalia's inhabitants do believe in the Daeroris government, it is a part of the Faebalar state, albeit involuntarily- when the Faebalar offered them the chance to join their movement peacefully, the planetary government refsed. As a result, one of the Faebalar's first moves was to occupy Thalia in order to prevent a Daeroris strike from being able to attack them in the heart of their own territory.`
+	description `	Thalia's axial tilt is far beyond what is considered average even for the Reluvethel- as a result, the seasons vary massively. An area that may be wracked with frost on the day of the winter solstice can be tropical in temperature by the summer solstice.`
+	spaceport `The spaceport is little more than a ghost town. While you do see a number of Daeroris ships here, they appear to be old, outdated models, clearly ones left over from the defence against the Faebalar invasion. Most of the other ships at the spaceport are Faebalar military vessels.`
+	spaceport `	Inside the complex, there are guards at every corner and intersection- in fact, you feel more like you are at a military base than a civilian spaceport.`
+	"required reputation" 150
 
 planet Theodluin
 	landscape land/sea3
