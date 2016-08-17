@@ -25,15 +25,15 @@ fleet "Avendri Merchants"
 #///////////////
 
 government "Kuk"
-	sizzle 0
+	swizzle 0
 	color .3 .3 .4
-	"player reputution" 1
+	"player reputation" 1
 	"bribe" .4
 	"fine" 0
 
 fleet "Kuk pilgrims"
 	government "Kuk"
-	names
+	names ""
 	cargo 2
 	personality
 		heroic frugal
